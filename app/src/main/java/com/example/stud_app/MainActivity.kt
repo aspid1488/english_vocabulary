@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         BtnShowToast.setOnClickListener{
             Log.i("MainActivity", "Button ebat")
 
+
+
             Toast.makeText(this, "ButtOn", Toast.LENGTH_SHORT).show()
         }
     }
